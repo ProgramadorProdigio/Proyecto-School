@@ -2,11 +2,17 @@
 
 <div class="row mb-3">
     <div class="col-12 text-end ">
-        <button type="button" class="btn btn-primary" onclick="loadFormPeriodo('none');">
-            <i class="bi bi-plus-circle"></i> Nuevo Periodo
+        <button type="button" class="btn" style="background-color: #E74C3C; border-color: #E74C3C; color: white;"
+                onclick="location.href='index.php';">
+            <i class="fas fa-arrow-circle-left"></i> Regresar
         </button>
-        <button type="button" class="btn btn-primary" onclick="loadFormPeriodo('mod');">
-            <i class="bi bi-plus-circle"></i> Modificar Periodo
+        <button type="button" class="btn" style="background-color: #009475; border-color: #009475; color: white;"
+                onclick="loadFormPeriodo('none');">
+            <i class="fas fa-plus-circle"></i> Nuevo Periodo
+        </button>
+        <button type="button" class="btn" style="background-color: #003B5C; border-color: #003B5C; color: white;"
+                onclick="loadFormPeriodo('mod');">
+            <i class="fas fa-edit"></i> Modificar Periodo
         </button>
     </div>
 </div>
